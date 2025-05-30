@@ -17,7 +17,7 @@
                 <tr>
                     <td>{{ $eval->titre }}</td>
                     <td>{{ $eval->date }}</td>
-                    <td>{{ ucfirst($eval->type) }}</td>
+                    <td>{{ $eval->type }}</td>
                 </tr>
             @endforeach
         </tbody>
