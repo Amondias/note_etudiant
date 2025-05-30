@@ -29,7 +29,7 @@
 
 
 <div class="container mt-4">
-    <h1>Liste des Notes</h1>
+    <h2>Liste des Notes</h2>
     <a href="{{ route('note.create') }}" class="btn btn-primary">Ajouter une note</a>
     <table class="table table-bordered mt-3">
         <thead>
