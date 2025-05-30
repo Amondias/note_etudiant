@@ -7,6 +7,8 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-  @yield('content')
+    @include('sidebar')
+    @include('navbar')
+    @yield('content')
 </body>
 </html>

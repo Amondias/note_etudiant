@@ -14,3 +14,8 @@ Route::post('/etudiant', [EtudiantController::class, 'store'])->name('etudiant.s
 Route::get('/etudiant/{id}/edit', [EtudiantController::class, 'edit'])->name('etudiant.edit');
 Route::put('/etudiant/{id}', [EtudiantController::class, 'update'])->name('etudiant.update');
 Route::delete('/etudiant/{id}', [EtudiantController::class, 'destroy'])->name('etudiant.destroy');
+
+//Routes concernant les notes
+Route::get('/note/dashboard', [EtudiantController::class, 'index'])->name('note.dashboard');
+Route::get('/note/create', [EtudiantController::class, 'create'])->name('note.create');
+Route::post('/note', [EtudiantController::class, 'store'])->name('note.store');
