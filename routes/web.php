@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EtudiantController;
+use App\Http\Controllers\EvaluationController;
+use App\Http\Controllers\NoteController;
 
 Route::get('/', function () {
     return view('welcome');
