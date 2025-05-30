@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-4">
     <h2>Liste des Évaluations</h2>
-    <a href="{{ route('evaluations.create') }}" class="btn btn-primary">Nouvelle Évaluation</a>
+    <a href="{{ route('evaluation.create') }}" class="btn btn-primary">Nouvelle Évaluation</a>
     <table class="table table-bordered mt-3">
         <thead>
             <tr>
